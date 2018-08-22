@@ -1,0 +1,31 @@
+Tutorial: https://malcoded.com/posts/angular-file-upload-component-with-express
+
+FileServer
+========
+npm init
+
+External Dependencies:
+-Handle api calls
+$ npm install express --save
+-Handle CORS issue
+$ npm install cors --save
+-Handle form data
+$ npm install formidable --save
+
+-------------------------------------------
+
+Angular app
+==============
+$ ng new file-upload-app
+-angular material library 
+$ npm install --save @angular/material @angular/cdk
+
+Add foloowing  to ==> src/style.css
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+-flexbox design
+$ npm install --save @angular/flex-layout
+
+Adding modules
+    ng generate module upload
+    ng generate service upload/upload
